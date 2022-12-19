@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generes",
+  "info": {
+    "singularName": "genere",
+    "pluralName": "generes",
+    "displayName": "Genere"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "games": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::game.game"
+    },
+    "game": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::game.game",
+      "mappedBy": "genere"
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.checkout-container {
+	height: 100vh;
+	width: 100%;
+	/* background-color: lightslategray; */
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+	color: white;
+}
+
+.checkout-form {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	width: 100%;
+}
+
+.form-h2 {
+	text-align: center;
+	padding: 5px 105px;
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 10%);
+}
+
+.form-h3 {
+	font-size: 18px;
+}
+/* .form-h4 {
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 10%);
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px 0px;
+} */
+
+.checkout-form-first {
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 1200px) {
+	.checkout-container {
+		height: auto;
+	}
+	.checkout-form-first {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		margin: 50px auto;
+	}
+}
+/* hr {
+	width: 50%;
+	text-align: left;
+	margin-left: 0;
+}
+.h6-heading {
+	margin-bottom: 1%;
+	margin-left: -78%;
+}
+.h6-heading-below {
+	margin-bottom: 1%;
+	margin-left: -88%;
+}
+
+.h6-heading-form {
+	margin-bottom: 1%;
+	margin-left: -418%;
+}
+
+.h6-heading-form-card {
+	margin-bottom: 1%;
+	margin-left: -448%;
+}
+
+.h6-heading-form-expiration {
+	margin-bottom: 1%;
+	margin-left: -598%;
+}
+.h6-heading-form-expiration-cvv {
+	margin-bottom: 1%;
+	margin-left: -1515%;
+}
+.test {
+	width: 50%;
+}
+.btn-proceed {
+	width: 20%;
+}
+.second {
+	padding-left: 15%;
+}
+.radioButtons {
+	margin-bottom: -0.875rem;
+}
+hr {
+	width: 30%;
+	height: 2%;
+} */
