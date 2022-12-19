@@ -1,12 +1,14 @@
+/* THE NAVBAR ON THE FIRST PAGE BEFORE LOGIN */
+
 .navbar {
-	/* background-color: lightslategray; */
+	/* background-color: lightslategray;  */
 	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+	border-radius: none !important;
 }
 .values {
 	color: white;
 	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 }
-
 .container .navbar-brand {
 	font-size: 30px;
 	font-weight: 700;

@@ -5,6 +5,7 @@ nav {
 	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 	font-size: 25px;
 	/* background-color: lightsteelblue; */
+	border-radius: 0px 0px 70px 70px;
 }
 
 nav > li {
@@ -12,19 +13,30 @@ nav > li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-right: 1px solid lightsteelblue;
-	border-bottom: 1px solid lightsteelblue;
+	padding: 20px 0px;
+}
+
+nav li:first-child {
+	border-radius: 0px 0px 0px 70px !important;
+}
+
+nav li:last-child {
+	border-radius: 0px 0px 70px 0px !important;
 }
 nav > li:hover {
 	cursor: pointer;
 	opacity: 1;
 	color: #ffff;
 	background-color: #000;
+	text-decoration: underline;
 }
 .main-container {
 	width: 100%;
-	/* background-color: lightslategray; */
-	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+	background-color: rgb(
+		31,
+		30,
+		30
+	); /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
 }
 .logout {
 	position: absolute;
@@ -50,7 +62,7 @@ nav > li:hover {
 }
 .game:hover {
 	cursor: pointer;
-	background-color: #ffff;
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 	color: #000;
 }
 .game-image img {
@@ -59,6 +71,10 @@ nav > li:hover {
 }
 .heartIcon {
 	width: 20px;
+}
+
+.heartIcon {
+	color: rgb(253, 4, 4) !important;
 }
 .heartIcon:hover {
 	width: 20px;
