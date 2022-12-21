@@ -90,7 +90,8 @@ h6 {
 
 .cart-icon {
 	height: 20px;
-	width: 52px;
+	width: 60px;
+	filter: invert(160%);
 }
 
 .cart-icon:hover {
