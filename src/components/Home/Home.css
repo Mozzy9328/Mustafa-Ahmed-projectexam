@@ -57,7 +57,7 @@ nav > li:hover {
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 5% 0%;
-	color: white;
+	color: #000;
 }
 .games-container > div {
 	width: 30%;
@@ -65,6 +65,7 @@ nav > li:hover {
 .game {
 	border: 2px solid lightsteelblue;
 	margin: 2px;
+	background-color: rgb(176, 205, 232);
 }
 .game:hover {
 	cursor: pointer;
@@ -79,9 +80,6 @@ nav > li:hover {
 	width: 20px;
 }
 
-.heartIcon {
-	color: rgb(253, 4, 4) !important;
-}
 .heartIcon:hover {
 	width: 20px;
 	height: 20px;
