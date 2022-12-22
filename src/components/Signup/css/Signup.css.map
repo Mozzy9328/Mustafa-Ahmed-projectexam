@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACjB,MAAM,EAAE,SAAS;CACjB;;AAED,AAAA,mBAAmB,CAAC;EACnB,eAAe,EAAE,MAAM;CACvB",
+    "sources": [
+        "../Signup.scss"
+    ],
+    "names": [],
+    "file": "Signup.css"
+}

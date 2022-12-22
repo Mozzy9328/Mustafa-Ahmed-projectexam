@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import "./Cart.css";
+import "./css/Cart.css";
 import trash from "../../Images/trash.svg";
 
 function Cart() {
@@ -54,7 +54,7 @@ function Cart() {
 											/>
 										</div>
 										<div className="cart-game-title">
-											<h6>{currentGameObj.attributes.Title}</h6>
+											<h2>{currentGameObj.attributes.Title}</h2>
 											<img
 												src={trash}
 												alt="heart"

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Loader from "../Loader/Loader";
-import "./Home.css";
+import "./css/Home.css";
 import suitHeart from "../../Images/suit-heart.svg";
 import suiHeartFill from "../../Images/suit-heart-fill.svg";
 import Cart from "../../Images/Cart.svg";

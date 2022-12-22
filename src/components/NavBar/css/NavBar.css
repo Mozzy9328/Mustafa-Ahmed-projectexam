@@ -1,0 +1,57 @@
+/* THE NAVBAR ON THE FIRST PAGE BEFORE LOGIN */
+.navbar {
+  /* background-color: lightslategray;  */
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  border-radius: none !important;
+}
+
+.values {
+  color: white;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-container .navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-container .nav-link {
+  font-size: 15px;
+  font-weight: 700;
+  color: #000;
+}
+
+.navbar-container .nav-link:hover {
+  background-color: #000;
+  border-radius: 100px;
+  color: #ffff;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 50%;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .navbar-container .navbar-brand {
+    margin-left: 10px;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

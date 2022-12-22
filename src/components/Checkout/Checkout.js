@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Checkout.css";
+import "./css/Checkout.css";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
 import Modals from "../Modal/Modal";

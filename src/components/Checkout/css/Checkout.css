@@ -1,0 +1,97 @@
+.checkout-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #1f1e1e;
+  /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+  color: white;
+}
+
+.checkout-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.form-h2 {
+  text-align: center;
+  padding: 5px 105px;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 10%);
+}
+
+.form-h3 {
+  font-size: 18px;
+}
+
+/* .form-h4 {
+	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 10%);
+	width: 30%;
+	margin: 0 auto;
+	padding: 10px 0px;
+} */
+.checkout-form-first {
+  width: 100%;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+input::-webkit-input-placeholder {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+input:-ms-input-placeholder {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+input::-ms-input-placeholder {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+input::placeholder {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+.input-group-text {
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+form {
+  color: #ffff !important;
+  font-weight: 700 !important;
+}
+
+@media (max-width: 1200px) {
+  .checkout-container {
+    height: auto;
+  }
+  .checkout-form-first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    margin: 50px auto;
+    gap: 80px;
+  }
+}
+/*# sourceMappingURL=Checkout.css.map */

@@ -1,0 +1,15 @@
+.login-container {
+  margin-top: -71px;
+  /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+}
+
+.align-items-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form h2 {
+  font-size: 15px;
+}
+/*# sourceMappingURL=Login.css.map */
