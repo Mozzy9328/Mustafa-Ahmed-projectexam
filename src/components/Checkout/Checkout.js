@@ -140,6 +140,9 @@ function Checkout() {
 										placeholder="Expiration"
 										className="cardname-input"
 										value={expirationDate}
+										onInput={(e) =>
+											(e.target.value = e.target.value.slice(0, 4))
+										}
 										onChange={(e) => setExpirationDate(e.target.value)}
 									/>
 								</Form.Group>
@@ -150,6 +153,9 @@ function Checkout() {
 										placeholder="CVV"
 										className="cardname-input"
 										value={cvv}
+										onInput={(e) =>
+											(e.target.value = e.target.value.slice(0, 4))
+										}
 										onChange={(e) => setCvv(e.target.value)}
 									/>
 								</Form.Group>

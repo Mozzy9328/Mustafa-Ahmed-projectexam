@@ -1,0 +1,36 @@
+.thankyou-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.thankyou-container h1 {
+  text-align: center;
+  color: #ffff;
+}
+
+.thankyou-container button {
+  margin-top: 2%;
+  width: 25%;
+  padding: 10px 0px;
+  border-radius: 100px;
+}
+
+.thankyou-container button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  color: #000;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.thankyou-container button a {
+  text-decoration: none;
+  color: #000;
+}
+/*# sourceMappingURL=CheckoutThankYou.css.map */

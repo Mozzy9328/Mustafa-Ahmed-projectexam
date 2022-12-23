@@ -9,7 +9,7 @@ function Modals({ show, showModal }) {
 	const handleClose = () => showModal(false);
 	const handleBrowse = () => {
 		localStorage.removeItem("favoriteGames");
-		navigate("/");
+		navigate("/checkout-thankyou");
 	};
 	//   const handleShow = () => showModal(true);
 	return (

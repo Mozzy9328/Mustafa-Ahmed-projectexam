@@ -4,9 +4,10 @@ import Home from "./components/Home/Home";
 import Details from "./components/Details/Details";
 import Cart from "./components/Cart/Cart";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.scss";
+import "./css/App.css";
 import Signup from "./components/Signup/Signup";
 import Checkout from "./components/Checkout/Checkout";
+import CheckoutThankYou from "./components/CheckoutThankYou/CheckoutThankYou";
 
 function App() {
 	return (
@@ -20,6 +21,11 @@ function App() {
 					<Route exact path="/Details/:id" element={<Details />}></Route>
 					<Route exact path="/cart" element={<Cart />}></Route>
 					<Route exact path="/checkout" element={<Checkout />}></Route>
+					<Route
+						exact
+						path="/checkout-thankyou"
+						element={<CheckoutThankYou />}
+					></Route>
 				</Routes>
 			</div>
 		</Router>

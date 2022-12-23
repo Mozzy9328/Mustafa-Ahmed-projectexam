@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Loader from "../Loader/Loader";
 import "./css/Details.css";
 import suitHeart from "../../Images/suit-heart.svg";
 import suiHeartFill from "../../Images/suit-heart-fill.svg";
+import Cart from "../../Images/Cart.svg";
 
 function Details() {
 	const location = useLocation();
+	const navigate = useNavigate();
 	const getGame = async (id) => {
 		const response = await axios.get(
 			`http://localhost:1337/api/games/${id}?populate=*`
@@ -68,6 +71,9 @@ function Details() {
 	const [loading, setLoading] = useState(true);
 	const [game, setGame] = useState();
 	const [heartState, setHeartState] = useState();
+	const moveToCart = () => {
+		navigate("/cart");
+	};
 
 	return (
 		<div>
@@ -82,6 +88,22 @@ function Details() {
 							Details Page
 						</a>
 					</h1>
+					<div className="logout">
+						<a
+							href="/"
+							onClick={() => {
+								localStorage.clear();
+							}}
+						>
+							logout
+						</a>
+						<img
+							src={Cart}
+							alt="cart"
+							className="cart-icon"
+							onClick={moveToCart}
+						/>
+					</div>
 					<div className="games-container1">
 						<div className="game-title">
 							<h2>Title: </h2>

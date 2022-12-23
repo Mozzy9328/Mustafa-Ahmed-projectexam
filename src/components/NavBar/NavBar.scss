@@ -1,9 +1,12 @@
 /* THE NAVBAR ON THE FIRST PAGE BEFORE LOGIN */
-
+.fix-height {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
 .navbar {
 	/* background-color: lightslategray;  */
 	background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
-	border-radius: none !important;
 }
 .values {
 	color: white;
@@ -13,7 +16,7 @@
 .navbar-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	margin-left: 10%;
 	align-items: center;
 
 	& .navbar-brand {
@@ -34,13 +37,17 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 	.navbar-container {
-		width: 50%;
-		justify-content: center !important;
+		width: 55%;
+		margin: 0 auto;
+	}
 
-		& .navbar-brand {
-			margin-left: 10px;
-		}
+	& .navbar-brand {
+		font-size: 25px !important;
+	}
+
+	& .nav-link {
+		font-size: 10px !important;
 	}
 }
