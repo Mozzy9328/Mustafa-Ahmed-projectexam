@@ -2,14 +2,12 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+### `install packages first`
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+Make sure you are in the bitsandbotsbackend folder when you start the terminal. Install the packages (`npm install`)
 
 ```
-npm run develop
-# or
-yarn develop
+
 ```
 
 ### `start`
