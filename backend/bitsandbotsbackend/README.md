@@ -4,9 +4,10 @@ Strapi comes with a full featured [Command Line Interface](https://docs.strapi.i
 
 ### `install packages first`
 
-Make sure you are in the bitsandbotsbackend folder when you start the terminal. Install the packages (`npm install`)
+Make sure you are in the bitsandbotsbackend folder when you start the terminal. Install the packages
 
 ```
+npm install
 
 ```
 
