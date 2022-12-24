@@ -11,13 +11,11 @@ Make sure you are in the bitsandbotsbackend folder when you start the terminal. 
 ```
 
 ### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
+Make sure to start your Strapi application before starting the React app.
 
 ```
-npm run start
-# or
-yarn start
+npm start
+
 ```
 
 ### `build`
